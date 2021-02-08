@@ -10,7 +10,7 @@ namespace InterfaceExercise
         {
 
         }
-        public double EngineSize { get; set; } = 5.0;
+        public double EngineSize { get; set; } = 6.0;
         public string Make { get; set; } = "Ford";
         public string Model { get; set; } = "F-150";
         public int SeatCount { get; set; } = 5;
@@ -18,7 +18,7 @@ namespace InterfaceExercise
         public string Motto { get; set; } = "Built Ford Tough";
         public bool HasChangedGears { get; set; }
 
-        public bool HasFourWheelDrive { get; set; }
+        public bool HasFourWheelDrive { get; set; } = true;
 
         public void ChangeGears(bool isChanged)
         {
