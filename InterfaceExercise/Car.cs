@@ -46,7 +46,7 @@ namespace InterfaceExercise
             if (HasChangedGears == true)
             {
                 Console.WriteLine($"{GetType().Name} now in park......");
-                HasChangedGears == false;
+                HasChangedGears = false;
             }
             else
             {
